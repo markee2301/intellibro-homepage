@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelLibro</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <h1><a href="index.html">Intel<span>Libro</span></a></h1>
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="howto.html">How To Use</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div>
+        <div class="content">
+            <h1>What is IntelLibro?</h1><br>
+            <p><span id="intellibro">IntelLibro</span> is an innovative and interactive web application designed to
+                revolutionize the way users interact with and extract information from 
+                their PDF documents. At its core, IntelLibro utilizes advanced natural 
+                language processing (NLP) and machine learning technologies to provide a seamless 
+                and intuitive user experience.</p><br>
+            <p>It is ideal for students, researchers, professionals, and anyone 
+                who regularly works with PDF documents and seeks an efficient way to 
+                navigate and utilize their content. By combining cutting-edge AI technology 
+                with user-centric design, IntelLibro stands out as a smart, efficient tool 
+                for document analysis and information retrieval.</p>
+            <h1>Key Features</h1><br>
+            <p>1. <span>PDF Text Extraction and Analysis</span><br>
+                Users can upload multiple PDF documents, and IntelLibro extracts the text 
+                content. This feature is particularly adept at handling text-based PDFs, 
+                ensuring high accuracy and efficiency in text extraction.</p><br>
+            <p>2. <span>Interactive Question-Answer System</span><br>
+                Leveraging the power of AI models, the app offers a chat interface 
+                where users can ask specific questions related to the content of their uploaded 
+                documents. The app intelligently parses through the extracted text and provides 
+                concise, contextually relevant answers.</p><br>
+            <p>3. <span>Advanced Text Chunking and Indexing</span><br>
+                IntelLibro employs a sophisticated text splitter to divide the extracted text 
+                into manageable chunks. This enhances the efficiency of the search and response 
+                mechanism, enabling quick retrieval of information.</p><br>
+            <p>4. <span>Vector Store Creation for Efficient Retrieval</span><br>
+                The app creates a vector store from the text chunks. This feature allows for fast and accurate retrieval of 
+                information from large volumes of text.</p><br>
+            <p>5. <span>User-Friendly Interface with Secure Data Handling</span><br>
+                IntelLibro boasts a clean, intuitive interface with straightforward navigation. 
+                It places a strong emphasis on user data security, especially concerning 
+                sensitive information in PDF documents and API keys.</p><br>
+            <p>6. <span>Customizable and Scalable</span><br>
+                Whether for personal use or for professional settings, IntelliBro is designed 
+                to cater to a wide range of user needs, scaling effortlessly to handle varying 
+                volumes of data.</p><br>
+            <h1>Versions of IntelLibro</h1><br>
+            <p><span>v1.0</span><br>
+                This is the free version, it features our finetuned Falcon 7B model, 
+                an Open LLM made by the Technological Innovation Institute (TII). 
+                Though it's tailored for our app's requirements, users may notice it's 
+                not as swift or accurate as our latest release.</p><br>
+            <p><span>v2.0</span><br>
+                In this version, we transitioned to the advanced OpenAI GPT-4 model, 
+                which incurs a small fee but greater performance in return. This upgrade 
+                translates into noticeably quicker and more precise interactions, 
+                catering to those who prioritize efficiency and accuracy in their user 
+                experience.</p><br>
+            <h3>To use IntelLibro, visit this <a href="howto.html">link</a>.</h3>
+        </div>
+    <div class="footer">
+        <footer>
+            <p><span>Copyright &copy; 2024 IntelLibro</span> by Bakal Boys | All Rights Reserved.</p>
+            <div class="contact">
+                <p>- Contact Us -</p>
+                <ul class="dev-socials">
+                    <li><a href="https://www.facebook.com/markee2301" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/super.markee" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/M4rkeee" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="mailto:itsmark2301@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>

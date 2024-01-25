@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelLibro</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <h1><a href="index.html">Intel<span>Libro</span></a></h1>
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="howto.html">How To Use</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div>
+        <div class="content">
+            <h1>Frequently Asked Questions</h1><br>
+            <h2>Does IntelLibro support PDFs containing scanned images?</h2>
+            <p>- No, since we are using LLM the app can't directly process images without the help of 
+                a third-party application. We encourage you to check your files before using the app to avoid errors.
+                The team is looking into this matter and hopefully integrate this kind of feature in the future.
+            </p><br>
+            <h2>Does IntelLibro allow uploading multiple PDFs?</h2>
+            <p>- Yes, IntelLibro allow users to upload multiple files all at once.</p><br>
+            <h2>Does IntelLibro save our PDF files?</h2>
+            <p>- No, we value our users' security. Your files are kept only within your session 
+                and will be deleted as soon as you exit the app. We do not save your files as it 
+                is a clear violation of the Data Privacy Act.</p><br>
+            <h2>Does IntelLibro support other file extensions?</h2>
+            <p>- No, as of now the app only support PDF files. We look forward to support more files extensions 
+                in the future.</p><br>
+            <h2>Is it compatible on android and ios?</h2>
+            <p>- Yes, since it is a web-based app, all you need is a device and internet connection.</p><br>
+            <h2>How much does it cost to use IntelLibro?</h2>
+            <p>- IntelLibro v1 is FREE. If you are referring to IntelLibro v2, the cost is based on 
+                Open AI's token price. To give you an idea, 1,000 prompt tokens (input) cost $0.01 while 
+                1,000 sampled tokens (output) cost $0.03. That is around Php 2.00 - Php 3.00 for 
+                about 2,000 words processed. Cheaper than you think.</p><br>
+            <h2>What is the difference between v1 and v2?</h2>
+            <p>- The v2 uses GPT-4 which is a lot faster and precise than the finetuned Falcon 7B that was used in v1.</p><br>
+            <h2>Why is v1 free and v2 is not?</h2>
+            <p>- As mentioned above v2 uses GPT-4 which is not free and v1 uses a finetuned free model the Falcon 7B.</p>
+        </div>
+    <div class="footer">
+        <footer>
+            <p><span>Copyright &copy; 2024 IntelLibro</span> by Bakal Boys | All Rights Reserved.</p>
+            <div class="contact">
+                <p>- Contact Us -</p>
+                <ul class="dev-socials">
+                    <li><a href="https://www.facebook.com/markee2301" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com/super.markee" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/M4rkeee" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="mailto:itsmark2301@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
