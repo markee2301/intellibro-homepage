@@ -125,11 +125,12 @@ footer p span{
 
 a {
     color: #1DA1F2;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
     color: #8855A3;
+    text-decoration: underline;
 }
 
 
