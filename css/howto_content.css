@@ -49,6 +49,27 @@
     color: teal;
 }
 
+#api_key{
+    font-size: 16px;
+    color: #00FF00;
+}
+
+#note{
+    color: red;
+    font-size: 16px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+#api_key, #note{
+    animation: blink 3s infinite;
+}
+
+
 @media only screen and (max-width: 600px){
 
     .content {
@@ -113,6 +134,16 @@
     iframe{
         width: 100%;
         height: auto;
+    }
+
+    #api_key{
+        font-size: 8px;
+        color: #00FF00;
+    }
+    
+    #note{
+        color: red;
+        font-size: 8px;
     }
     /* ----------------------------------------------- */
     .nav ul{
@@ -207,4 +238,5 @@
         font-style: italic;
         color: teal;
     }
+    
 }
